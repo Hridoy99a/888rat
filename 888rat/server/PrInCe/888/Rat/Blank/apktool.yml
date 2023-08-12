@@ -1,1 +1,25 @@
 
+!!brut.androlib.meta.MetaInfo
+apkFileName: 888Blank.apk
+compressionType: false
+doNotCompress:
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1- 888Rat (Powered By ApkTool)
+versionInfo:
+  versionCode: '1684531'
+  versionName: 1.0.7
+  
